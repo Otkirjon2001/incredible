@@ -325,6 +325,25 @@ a{
   border-color: var(--font-color);
 }
 
+/* GALLERY */
+.gallery {
+  padding-top: 63px;
+  padding-bottom: 53px;
+}
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -20px;
+  padding: 72px 9px 0px 11px;
+}
+.gallery-item {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.gallery-item-img {
+  width: 215px;
+  height: 215px;
+}
 
 
 
