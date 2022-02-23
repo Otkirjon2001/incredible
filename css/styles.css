@@ -71,7 +71,7 @@ a{
 }
 .button{
   display: inline-block;
-  padding: 11px 22px 15px 22px;
+  padding: 9px 20px 13px 20px;
   font-size: 16px;
   line-height: 21px;
   border: 2px solid var(--primary-color);
@@ -302,6 +302,27 @@ a{
 }
 .about-item-link:active{
   opacity: 0.6;
+}
+
+/* GET-STARTED */
+.get-started {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: var(--primary-color);
+}
+.get-started-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.get-started-heading {
+  margin: 0;
+  font-size: 31px;
+  line-height: 36px;
+  color: var(--font-color);
+}
+.get-started-button {
+  border-color: var(--font-color);
 }
 
 
